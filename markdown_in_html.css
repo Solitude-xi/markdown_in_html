@@ -1,0 +1,119 @@
+/* 容器设置 */
+.markdown {
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #3596B5;
+  font-size: 14px;
+}
+
+
+.markdown * {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* h1样式 */
+.md_in_ht_h1 {
+  font-size: 32px;
+  margin: 0 auto;
+  color: #3596B5;
+  font-weight: bold;
+}
+
+
+
+/* h2样式 */
+.md_in_ht_h2 {
+  font-size: 24;
+  font-weight: bold;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding-left: 11px;
+  padding-bottom: 5px;
+  width: inherit;
+  color: #3596B5;
+  position: relative;
+}
+
+/* h2左边那个块 */
+.md_in_ht_h2::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 34px;
+  background-color: #3596B5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* h2下面那根线 */
+.md_in_ht_h2::after {
+  margin-top: 5px;
+  content: '';
+  display: block;
+  width: inherit;
+  height: 1px;
+  background-color: #3596B5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+/* h3样式 */
+.md_in_ht_h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: normal;
+  /* margin-left: 2rem; */
+}
+
+
+
+
+/* h4样式 */
+.md_in_ht_h4 {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: normal;
+  /* margin-left: 3rem; */
+}
+
+
+
+/* h5,h6样式 */
+.md_in_ht_h5,
+.md_in_ht_h6 {
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: normal;
+  /* margin-left: 3.5rem; */
+}
+
+/* .md_in_ht_h6 {
+  margin-left: 4rem;
+} */
+
+
+
+/* img标签 */
+.md_in_ht_img {
+  width: 70%;
+  margin-left: 15vw;
+  margin-top: 10px;
+}
+
+
+.md_in_ht_a {
+  color: #296073;
+  text-decoration: none;
+}
